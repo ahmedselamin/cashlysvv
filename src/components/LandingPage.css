@@ -52,31 +52,30 @@ body {
 .nav .cta:hover {
   background-color: rgb(15, 15, 15);
   color: white;
-  scale: 1.1;
-  transform: translate(30px);
+  transform: scale(1.1);
 }
 
 .hero {
-  color: rgb(14, 13, 13);
-  text-align: center;
-  padding: 4rem 1rem;
-  position: relative; /* Allow positioning adjustments */
-  margin-left: -10%; /* Move the hero section to the left */
-  width: 100%; /* Expand the width to cover the additional space */
-  left: -13%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 3rem;
+  position: relative;
+  width: 100%;
+  margin-left: 0; /* Reset margin */
 }
 
 .hero-content {
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 50%; /* Adjusted to fit with chart */
+  margin-right: 2rem; /* Space between hero content and chart */
 }
 
-.hero h2 {
+.hero-content h2 {
   font-size: 3rem;
   margin: 0 0 1rem;
 }
 
-.hero p {
+.hero-content p {
   font-size: 1.2rem;
 }
 
@@ -90,9 +89,9 @@ body {
   transition: background-color 0.2s, color 0.2s;
   font-weight: 500;
   font-size: 20px;
-  border: none;
-  background-color: #f7f7f7;
-  cursor: pointer;
+  border: 2px solid black; /* Added border */
+  background-color: transparent; /* Match button color with background */
+  border-radius: 5px;
 }
 
 .cta-button i {
@@ -102,7 +101,6 @@ body {
 }
 
 .cta-button:hover {
-  scale: 1.1;
   background-color: black;
   color: white;
 }
@@ -111,38 +109,17 @@ body {
   color: white;
 }
 
-.features {
-  padding: 4rem 1rem;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.features h2 {
-  margin: 0 0 2rem;
-}
-
-.feature-item {
-  margin: 1rem 0;
-}
-
-.feature-item i {
-  font-size: 3rem;
-  color: #28a745;
-}
-
-.feature-item h3 {
-  margin: 1rem 0 0.5rem;
-}
-
-.feature-item p {
-  margin: 0;
+.chart-container {
+  flex: 1;
+  max-width: 50%;
+  padding: 0 1rem;
 }
 
 footer {
   background-color: #f7f7f7;
   padding: 1rem;
   text-align: center;
-  margin-top: auto; /* Pushes footer to the bottom of the page */
+  margin-top: auto;
 }
 
 footer p {

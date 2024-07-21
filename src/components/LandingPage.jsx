@@ -1,12 +1,14 @@
+// src/LandingPage.js
 import React from "react";
 import "./LandingPage.css";
+import Chart from "./Chart"; // Import the Chart component
 
 const LandingPage = () => (
   <div className="landing-page">
     <header className="header">
       <div className="container">
         <div className="logo">
-          <h1>Cashly.</h1>
+          <h1>Cashly</h1>
         </div>
         <nav className="nav">
           <a href="#features">Features</a>
@@ -25,6 +27,9 @@ const LandingPage = () => (
           <i className="fas fa-rocket"></i>
           Get Started
         </a>
+      </div>
+      <div className="chart-container">
+        <Chart />
       </div>
     </section>
 
