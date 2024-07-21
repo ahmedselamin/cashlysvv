@@ -11,9 +11,9 @@ const LandingPage = () => (
           <h1>Cashly</h1>
         </div>
         <nav className="nav">
-          <a href="#features">Features</a>
+          <a href="/about">About</a>
           <a href="#contact">Contact</a>
-          <a href="#signup" className="cta">
+          <a href="/login" className="cta">
             Login
           </a>
         </nav>
@@ -23,7 +23,7 @@ const LandingPage = () => (
       <div className="hero-content">
         <h2>Simplify Your Expenses</h2>
         <p>Track and manage your expenses easily with Cashly.</p>
-        <a href="#signup" className="cta-button">
+        <a href="/register" className="cta-button">
           <i className="fas fa-rocket"></i>
           Get Started
         </a>
