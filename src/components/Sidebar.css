@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 1rem; /* Ample padding for emphasis */
+  background-color: transparent; /* No background to keep the focus on the text */
+  color: #2c3e50; /* Dark, elegant text color */
+  font-family: "Dancing Script", cursive; /* Squiggly, whimsical font */
+  font-size: 2.5rem; /* Larger font size for emphasis */
+  text-align: center; /* Center-align text */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .sidebar {
   width: 250px;
   background-color: #f7f7f7;
@@ -10,6 +31,7 @@
   flex-direction: column;
   align-items: center;
   border-right: solid 1px #e3e3e3;
+  font-family: "Roboto", sans-serif;
 }
 
 .sidebar ul {
@@ -25,13 +47,26 @@
 .sidebar ul li a {
   text-decoration: none;
   color: black;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem 2rem;
-  text-align: center;
-  transition: background-color 0.3s, color 0.3s;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.sidebar ul li a:hover {
+.sidebar ul li a i {
+  margin-right: 20px;
+  font-size: 22px;
+  color: black;
+}
+
+.sidebar ul li:hover a {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+
+.sidebar ul li:hover a i {
   background-color: rgb(15, 15, 15);
   color: white;
 }

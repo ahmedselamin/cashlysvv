@@ -4,17 +4,32 @@ import "./Sidebar.css";
 
 const Sidebar = () => (
   <nav className="sidebar">
+    <div className="logo">
+      <h1>Cashly</h1>
+    </div>
     <ul>
       <li>
-        <NavLink to="/home">Home</NavLink>
+        <NavLink to="/home">
+          <i className="fas fa-home"></i>Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/settings">Settings</NavLink>
+        <NavLink to="/reports">
+          <i className="fas fa-chart-line"></i>Reports
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/reports">Reports</NavLink>
+        <NavLink to="/settings">
+          <i className="fas fa-cog"></i>Settings
+        </NavLink>
       </li>
     </ul>
+    <button>
+      <i class="fa fa-plus"></i>Add Expense
+    </button>
+    <button>
+      <i class="fa fa-sign-out-alt"></i>Logout
+    </button>
   </nav>
 );
 
