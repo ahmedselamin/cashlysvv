@@ -5,7 +5,7 @@ import "./Sidebar.css";
 const Sidebar = () => (
   <nav className="sidebar">
     <div className="logo">
-      <h1>Cashly</h1>
+      <h1>Cashly.</h1>
     </div>
     <ul>
       <li>
@@ -24,10 +24,10 @@ const Sidebar = () => (
         </NavLink>
       </li>
     </ul>
-    <button>
+    <button className="add-expense-btn">
       <i class="fa fa-plus"></i>Add Expense
     </button>
-    <button>
+    <button className="logout-btn">
       <i class="fa fa-sign-out-alt"></i>Logout
     </button>
   </nav>
