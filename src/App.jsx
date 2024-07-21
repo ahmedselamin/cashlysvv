@@ -6,14 +6,7 @@ import Register from "./components/Register";
 import Home from "./components/Home";
 import Settings from "./components/Settings";
 import Reports from "./components/Reports";
-import Sidebar from "./components/Sidebar";
-
-const MainLayout = () => (
-  <div>
-    <Sidebar />
-    <Outlet />
-  </div>
-);
+import MainLayout from "./components/MainLayout";
 
 const router = createBrowserRouter([
   {

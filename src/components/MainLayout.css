@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+}
+
+.content {
+  margin-left: 250px; /* Same width as the sidebar */
+  padding: 20px;
+  width: calc(100% - 250px); /* Adjust the width according to the sidebar */
+  background-color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
