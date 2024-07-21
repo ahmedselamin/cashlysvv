@@ -1,0 +1,159 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: #2c3e50;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+.nav .cta {
+  background-color: #f7f7f7;
+  border: 3px solid black;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.nav .cta:hover {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  scale: 1.1;
+  transform: translate(30px);
+}
+
+.hero {
+  color: rgb(14, 13, 13);
+  text-align: center;
+  padding: 4rem 1rem;
+  position: relative; /* Allow positioning adjustments */
+  margin-left: -10%; /* Move the hero section to the left */
+  width: 100%; /* Expand the width to cover the additional space */
+  left: -13%;
+}
+
+.hero-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0.5rem;
+  transition: background-color 0.2s, color 0.2s;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.cta-button i {
+  margin-right: 20px;
+  font-size: 22px;
+  color: black;
+}
+
+.cta-button:hover {
+  scale: 1.1;
+  background-color: black;
+  color: white;
+}
+
+.cta-button:hover i {
+  color: white;
+}
+
+.features {
+  padding: 4rem 1rem;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.features h2 {
+  margin: 0 0 2rem;
+}
+
+.feature-item {
+  margin: 1rem 0;
+}
+
+.feature-item i {
+  font-size: 3rem;
+  color: #28a745;
+}
+
+.feature-item h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.feature-item p {
+  margin: 0;
+}
+
+footer {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto; /* Pushes footer to the bottom of the page */
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
