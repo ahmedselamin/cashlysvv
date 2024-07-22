@@ -88,7 +88,7 @@ body {
   padding: 1rem 0.5rem;
   transition: background-color 0.2s, color 0.2s;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   border: 2px solid black; /* Added border */
   background-color: transparent; /* Match button color with background */
   border-radius: 5px;
@@ -127,7 +127,7 @@ footer p {
 }
 
 footer a {
-  color: #28a745;
+  color: rgb(118, 108, 175);
   text-decoration: none;
 }
 
