@@ -1,14 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./LandingPage.css";
-import Chart from "./Chart"; // Import the Chart component
-import Login from "./Login"; // Import the Login component
+import Chart from "./Chart"; // Import the Chart component`
 
 const LandingPage = () => {
-  const [isLoginOpen, setIsLoginOpen] = useState(false);
-
-  const openLoginModal = () => setIsLoginOpen(true);
-  const closeLoginModal = () => setIsLoginOpen(false);
-
   return (
     <div className="landing-page">
       <header className="header">
@@ -17,16 +11,16 @@ const LandingPage = () => {
             <h1>Cashly</h1>
           </div>
           <nav className="nav">
-            <button className="cta" onClick={openLoginModal}>
+            <a href="/login" className="cta">
               Login
-            </button>
+            </a>
           </nav>
         </div>
       </header>
       <section className="hero">
         <div className="hero-content">
           <h2>Simplify Your Expenses</h2>
-          <p>Track and manage your expenses easily with Cashly.</p>
+          <p>Manage and track your finances easily with Cashly.</p>
           <a href="/register" className="cta-button">
             <i className="fas fa-rocket"></i>
             Get Started
@@ -46,9 +40,6 @@ const LandingPage = () => {
           </p>
         </div>
       </footer>
-
-      {/* Render the login modal */}
-      {isLoginOpen && <Login closeModal={closeLoginModal} />}
     </div>
   );
 };
