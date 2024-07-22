@@ -1,12 +1,12 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import LandingPage from "./components/LandingPage";
-import Login from "./components/Login";
-import Register from "./components/Register";
-import Home from "./components/Home";
-import Settings from "./components/Settings";
-import Reports from "./components/Reports";
-import MainLayout from "./components/MainLayout";
+import LandingPage from "./components/LandingPage/LandingPage";
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
+import Home from "./components/Home/Home";
+import Settings from "./components/Settings/Settings";
+import Reports from "./components/Reports/Reports";
+import MainLayout from "./components/MainLayout/MainLayout";
 
 const router = createBrowserRouter([
   {

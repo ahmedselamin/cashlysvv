@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../index.css";
+import "./Sidebar.css";
 
 const Sidebar = () => (
   <nav className="sidebar">
     <div className="logo">
       <h1>Cashly.</h1>
     </div>
+    <div className="logo"></div>
     <ul>
       <li>
         <NavLink to="/home">

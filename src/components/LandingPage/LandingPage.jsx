@@ -1,6 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
-import Chart from "./Chart"; // Import the Chart component`
+import Chart from "../Chart/Chart"; // Import the Chart component`
 
 const LandingPage = () => {
   return (
