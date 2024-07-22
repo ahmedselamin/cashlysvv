@@ -48,3 +48,126 @@ button:active {
   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.4);
   transform: translateY(0.7px);
 }
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 260px;
+  background-color: #f7f7f7;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: solid 1px #e3e3e3;
+  padding-top: 20px;
+  justify-content: space-between; /* Distribute space between items */
+  padding-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  background-color: transparent;
+  color: #2c3e50;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  flex-grow: 1; /* Take up remaining space */
+}
+
+.sidebar ul li {
+  width: 100%;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.sidebar ul li a i {
+  margin-right: 20px;
+  font-size: 22px;
+  color: black;
+}
+
+.sidebar ul li:hover a {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+
+.sidebar ul li:hover a i {
+  color: white;
+}
+
+.sidebar button {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  transition: background-color 0.2s, color 0.2s;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.sidebar .add-expense-btn {
+  width: 80%;
+  margin: 2rem;
+}
+
+.sidebar .add-expense-btn:hover {
+  scale: 1.1;
+  background-color: black;
+  color: white;
+}
+
+.sidebar .logout-btn:hover {
+  width: 50%;
+  scale: 1.1;
+  background-color: #cc1729; /* Darker red on hover */
+  color: white;
+}
+
+.sidebar button i {
+  margin-right: 20px;
+  font-size: 22px;
+  color: black;
+}
+
+.sidebar button:hover {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+
+.sidebar button:hover i {
+  color: white;
+}
