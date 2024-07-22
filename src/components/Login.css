@@ -1,7 +1,14 @@
 /* Login.css */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
 .login-container {
-  max-width: 400px;
-  margin: 50px auto;
+  width: 400px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -31,15 +38,16 @@
   border-radius: 5px;
 }
 
-button {
-  width: 100%;
+.login-btn {
+  width: 60%;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #007bff;
-  color: white;
+  background-color: #f7f7ff;
+  color: black;
   font-size: 16px;
   cursor: pointer;
+  border: 2px solid black;
 }
 
 button:hover {
