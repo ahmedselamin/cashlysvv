@@ -1,0 +1,18 @@
+.user-div {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  background-color: #fff; /* Optional: Add background for visibility */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+.user-div i {
+  margin-left: 10px; /* Adjust as needed */
+  font-size: 1.5em; /* Adjust as needed */
+}
