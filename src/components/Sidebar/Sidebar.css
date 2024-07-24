@@ -57,7 +57,7 @@ body {
   padding: 1rem 2rem;
   transition: background-color 0.3s, color 0.3s;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .sidebar ul li a i {
@@ -84,14 +84,14 @@ body {
   padding: 1rem 1rem;
   transition: background-color 0.2s, color 0.2s;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 23px;
   border: none;
   background-color: #f7f7f7;
   cursor: pointer;
 }
 
 .sidebar .add-expense-btn {
-  width: 80%;
+  width: 100%;
   margin: 2rem;
 }
 
