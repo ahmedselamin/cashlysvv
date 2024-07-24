@@ -1,5 +1,6 @@
 import React from "react";
 import HomeChart from "../Chart/HomeChart";
+import Transactions from "../Transactions/Transactions";
 
 import "./Home.css";
 
@@ -11,7 +12,11 @@ const Home = () => {
         <i class="fa fa-user-circle" aria-hidden="true"></i>
       </div>
       <div className="chart-container">
+        <h2>Expense Distribution</h2>
         <HomeChart />
+      </div>
+      <div className="transactions-history">
+        <Transactions />
       </div>
     </div>
   );
