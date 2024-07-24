@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Transactions.css";
+
 const Transactions = () => {
   const transactions = [
     { id: 1, date: "2024-07-01", amount: "$50", category: "Groceries" },
