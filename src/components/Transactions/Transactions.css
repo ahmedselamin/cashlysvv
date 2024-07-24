@@ -1,5 +1,5 @@
 .transactions-history {
-  position: absolute;
+  position: fixed;
   right: 5em;
   top: 100px;
   width: 750px;
@@ -7,10 +7,16 @@
   border-radius: 8px;
   box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  max-height: 500px; /* Set a fixed height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 
 .transactions-history h2 {
   margin-top: 0;
+  margin-bottom: 20px;
+  position: inherit;
+  padding: 10px;
+  width: 700px;
 }
 
 .transactions-history ul {
