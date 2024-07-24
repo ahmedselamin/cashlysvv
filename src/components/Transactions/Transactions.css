@@ -1,18 +1,16 @@
-/* Transactions.css */
 .transactions-history {
-  width: 45%; /* Adjust width as needed */
-  padding: 20px;
+  position: absolute;
+  right: 5em;
+  top: 100px;
+  width: 750px;
+  padding: 0px;
+  border-radius: 8px;
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow-y: auto;
-  max-height: calc(100vh - 20px);
-  margin-left: 20px; /* Space between chart and transactions */
 }
 
 .transactions-history h2 {
-  text-align: center;
-  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .transactions-history ul {
@@ -23,15 +21,11 @@
 .transactions-history li {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0;
-  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
 }
 
-.transactions-history li:last-child {
-  border-bottom: none;
-}
-
-.transactions-history span {
+.transactions-history li span {
   flex: 1;
-  text-align: center;
+  text-align: left;
 }
