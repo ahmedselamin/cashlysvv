@@ -7,6 +7,7 @@ import Home from "./components/Home/Home";
 import Settings from "./components/Settings/Settings";
 import Reports from "./components/Reports/Reports";
 import MainLayout from "./components/MainLayout/MainLayout";
+import AddTransaction from "./components/AddTransaction/AddTransaction";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "register",
     element: <Register />,
+  },
+  {
+    path: "add-transaction",
+    element: <AddTransaction />,
   },
   {
     path: "/",
