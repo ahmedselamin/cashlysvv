@@ -50,7 +50,6 @@
 }
 
 button {
-  background-color: #f7f7f7;
   color: black;
   border: 2px solid black;
   width: 60%;
@@ -59,4 +58,14 @@ button {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.login-btn {
+  background-color: white;
+}
+
+.back-btn {
+  margin-bottom: 20px;
+  width: 60px;
+  border-radius: 50%;
 }
