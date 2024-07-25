@@ -27,7 +27,7 @@ const AddTransaction = () => {
             <label>Date</label>
             <input type="date" required />
           </div>
-          <button>Save Trancaction</button>
+          <button className="login-btn">Save Trancaction</button>
         </form>
       </div>
     </div>

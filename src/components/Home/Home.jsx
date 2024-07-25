@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="user-div">
-        <span>Welcome, Ahmed</span>
+        <span>Hello, Ahmed!</span>
         <i class="fa fa-user-circle" aria-hidden="true"></i>
       </div>
       <div className="chart-container">
