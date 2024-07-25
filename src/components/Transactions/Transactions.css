@@ -2,12 +2,12 @@
   position: fixed;
   right: 5em;
   top: 100px;
-  width: 750px;
+  width: 800px;
   padding: 0px;
   border-radius: 8px;
   box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  max-height: 500px; /* Set a fixed height for the scrollable area */
+  max-height: 600px; /* Set a fixed height for the scrollable area */
   overflow-y: auto; /* Enable vertical scrolling */
 }
 
