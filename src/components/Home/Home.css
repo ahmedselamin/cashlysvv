@@ -23,3 +23,7 @@
   margin-left: 10px; /* Adjust as needed */
   font-size: 2em; /* Adjust as needed */
 }
+
+.transactions-history {
+  width: 700px;
+}
