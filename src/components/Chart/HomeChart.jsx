@@ -52,7 +52,7 @@ const DonutChart = () => {
   };
 
   return (
-    <div style={{ width: "70%", margin: "1em 0.5em" }}>
+    <div style={{ width: "80%", margin: "1em 0.5em" }}>
       <Doughnut data={data} options={options} />
     </div>
   );
