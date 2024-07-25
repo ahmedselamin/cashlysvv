@@ -11,7 +11,9 @@ const Home = () => {
         <span>Hello, Ahmed!</span>
         <i class="fa fa-user-circle" aria-hidden="true"></i>
       </div>
-      <h2>Expense Distribution</h2>
+      <div className="expense-h2">
+        <h2>Expense Distribution</h2>
+      </div>
       <div className="chart-container">
         <HomeChart />
       </div>

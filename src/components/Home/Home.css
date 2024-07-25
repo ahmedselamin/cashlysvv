@@ -12,6 +12,13 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
 }
 
+.expense-h2 {
+  background-color: rgb(156, 172, 186);
+  font-size: 2em;
+  padding: 0.5em;
+  width: 700px;
+}
+
 .user-div i {
   margin-left: 10px; /* Adjust as needed */
   font-size: 2em; /* Adjust as needed */
