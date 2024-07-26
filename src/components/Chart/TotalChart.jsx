@@ -14,7 +14,7 @@ const PieChart = () => {
       {
         label: "Financial Overview",
         data: [1000, 500], // Replace with your dynamic data
-        backgroundColor: ["rgba(75, 192, 192, 1)", "rgba(255, 99, 132, 1)"], // Contrasting colors
+        backgroundColor: ["rgba(54, 162, 235, 1)", "rgba(255, 99, 132, 1)"], // Contrasting colors
         borderColor: ["rgba(75, 192, 192, 1)", "rgba(255, 99, 132, 1)"],
         borderWidth: 1,
       },
