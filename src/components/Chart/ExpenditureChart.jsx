@@ -35,22 +35,22 @@ const AllTimeExpenditureStackedBarChart = () => {
       {
         label: "Rent",
         data: [200, 220, 250, 270, 300, 320, 310, 330, 340, 350, 360, 380], // Replace with your dynamic data
-        backgroundColor: "rgba(255, 99, 132, 0.5)",
+        backgroundColor: "rgba(255, 99, 132, 1)",
       },
       {
         label: "Groceries",
         data: [100, 120, 130, 140, 150, 160, 150, 170, 160, 180, 190, 200], // Replace with your dynamic data
-        backgroundColor: "rgba(54, 162, 235, 0.5)",
+        backgroundColor: "rgba(54, 162, 235, 1)",
       },
       {
         label: "Utilities",
         data: [80, 90, 100, 110, 120, 130, 120, 140, 130, 140, 150, 160], // Replace with your dynamic data
-        backgroundColor: "rgba(255, 206, 86, 0.5)",
+        backgroundColor: "rgba(255, 206, 86, 1)",
       },
       {
         label: "Entertainment",
         data: [50, 60, 70, 80, 90, 100, 90, 110, 100, 110, 120, 130], // Replace with your dynamic data
-        backgroundColor: "rgba(75, 192, 192, 0.5)",
+        backgroundColor: "rgba(75, 192, 192, 1)",
       },
     ],
   };
