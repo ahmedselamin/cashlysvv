@@ -2,7 +2,7 @@ import React from "react";
 import TotalChart from "../Chart/TotalChart";
 import Expenditure from "../Chart/ExpenditureChart";
 
-//import "./Home.css";
+import "./Reports.css";
 
 const Reports = () => {
   return (

@@ -85,7 +85,7 @@ const AllTimeExpenditureStackedBarChart = () => {
   };
 
   return (
-    <div style={{ width: "80%", margin: "1em 0.5em" }}>
+    <div style={{ width: "60%", margin: "1em 1em" }}>
       <Bar data={data} options={options} />
     </div>
   );
